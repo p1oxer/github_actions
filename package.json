@@ -1,0 +1,24 @@
+{
+    "name": "github_actions",
+    "version": "1.0.0",
+    "description": "Workflow это настраиваемый автоматизированный процесс который будет запускать одну или несколько задач. Workflows описываются с помощью файла YAML в вашем репозитории и будут запущены после какого-либо события в репозитории, вручную или по расписанию.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/p1oxer/github_actions.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/p1oxer/github_actions/issues"
+    },
+    "homepage": "https://github.com/p1oxer/github_actions#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}

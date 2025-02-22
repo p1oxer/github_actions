@@ -1,0 +1,24 @@
+name: Запуск тестов
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Проверка репозитория
+        uses: actions/checkout@v3
+
+      - name: Установка node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Установка зависимостей
+        run: npm install
+
+      - name: Запуск тестов
+        run: npm test
+
+      - name: Вывод log
+        run: echo "Тесты успешно выполнены!"
